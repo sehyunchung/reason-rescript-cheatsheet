@@ -10,16 +10,18 @@
 
 ### Single-line String
 
+#### Reason
 ```re
 [%tw "w-full text-sm"]
 ```
 
-
+#### ReScript
 ```res
 %tw("w-full text-sm")
 ```
 
 ### Multi-line String
+#### Reason
 ```re
 [%graphql {|
   query UserQuery {
@@ -31,6 +33,7 @@
 |}];
 ```
 
+#### ReScript
 ```res
 %graphql(`
   query UserQuery {
